@@ -1,0 +1,12 @@
+E:\Test\TestGoogleSearch\TestGoogleSearch\bin\Debug\TestGoogleSearch.dll
+E:\Test\TestGoogleSearch\TestGoogleSearch\bin\Debug\TestGoogleSearch.pdb
+E:\Test\TestGoogleSearch\TestGoogleSearch\bin\Debug\nunit.framework.dll
+E:\Test\TestGoogleSearch\TestGoogleSearch\bin\Debug\nunit.mocks.dll
+E:\Test\TestGoogleSearch\TestGoogleSearch\bin\Debug\WebDriver.dll
+E:\Test\TestGoogleSearch\TestGoogleSearch\bin\Debug\WebDriver.Support.dll
+E:\Test\TestGoogleSearch\TestGoogleSearch\bin\Debug\nunit.framework.xml
+E:\Test\TestGoogleSearch\TestGoogleSearch\bin\Debug\WebDriver.xml
+E:\Test\TestGoogleSearch\TestGoogleSearch\bin\Debug\WebDriver.Support.xml
+E:\Test\TestGoogleSearch\TestGoogleSearch\obj\Debug\TestGoogleSearch.csprojResolveAssemblyReference.cache
+E:\Test\TestGoogleSearch\TestGoogleSearch\obj\Debug\TestGoogleSearch.dll
+E:\Test\TestGoogleSearch\TestGoogleSearch\obj\Debug\TestGoogleSearch.pdb
