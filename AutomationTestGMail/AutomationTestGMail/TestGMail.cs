@@ -56,6 +56,7 @@ namespace AutomationTestGMail
             IWebElement inboxMail = Driver.FindElement(By.XPath("//a[@href = 'https://mail.google.com/mail/#inbox']"));
             inboxMail.Click();
 
+            //Знаю что это плохо, но иначе ожидания не срабатывают(( может кто предложит идею?
             Thread.Sleep(1000);
             
             IWebElement sendMailSuccessfulInInbox = Driver.FindElement(By.XPath("//div[@class='y6']/span/b"));
