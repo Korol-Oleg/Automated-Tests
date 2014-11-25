@@ -1,0 +1,13 @@
+E:\Test\TestDrowz\TestDrowz\bin\Debug\TestDrowz.dll
+E:\Test\TestDrowz\TestDrowz\bin\Debug\TestDrowz.pdb
+E:\Test\TestDrowz\TestDrowz\bin\Debug\nunit.framework.dll
+E:\Test\TestDrowz\TestDrowz\bin\Debug\nunit.mocks.dll
+E:\Test\TestDrowz\TestDrowz\bin\Debug\WebDriver.dll
+E:\Test\TestDrowz\TestDrowz\bin\Debug\WebDriver.Support.dll
+E:\Test\TestDrowz\TestDrowz\bin\Debug\nunit.framework.xml
+E:\Test\TestDrowz\TestDrowz\bin\Debug\WebDriver.xml
+E:\Test\TestDrowz\TestDrowz\bin\Debug\WebDriver.Support.xml
+E:\Test\TestDrowz\TestDrowz\obj\Debug\TestDrowz.dll
+E:\Test\TestDrowz\TestDrowz\obj\Debug\TestDrowz.pdb
+E:\Test\TestDrowz\TestDrowz\bin\Debug\IEDriverServer.exe
+E:\Test\TestDrowz\TestDrowz\obj\Debug\TestDrowz.csprojResolveAssemblyReference.cache
