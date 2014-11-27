@@ -1,0 +1,13 @@
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\AddAdvertToSlando.dll.config
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\AddAdvertToSlando.dll
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\AddAdvertToSlando.pdb
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\nunit.framework.dll
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\TechTalk.SpecFlow.dll
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\WebDriver.dll
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\WebDriver.Support.dll
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\nunit.framework.xml
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\WebDriver.xml
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\bin\Debug\WebDriver.Support.xml
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\obj\Debug\AddAdvertToSlando.csprojResolveAssemblyReference.cache
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\obj\Debug\AddAdvertToSlando.dll
+E:\Test\AddAdvertToSlando\AddAdvertToSlando\obj\Debug\AddAdvertToSlando.pdb
