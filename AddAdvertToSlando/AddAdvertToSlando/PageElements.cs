@@ -108,7 +108,7 @@ namespace AddAdvertToSlando
         {
             get
             {
-                return _driver.FindElement(By.XPath("//div[@class = 'fleft rel hiddencat  {category: 7}']//div[@class = 'thumb']"));
+                return _driver.FindElement(By.XPath("//div[@id = 'category-7']//div[@class = 'thumb']"));
             }
         }
 
@@ -116,7 +116,7 @@ namespace AddAdvertToSlando
         {
             get
             {
-                return _driver.FindElement(By.XPath("//div[@class = 'fleft rel hiddencat  {category: 7}']//span[@class = 'icon abs scrollbardown']"));
+                return _driver.FindElement(By.XPath("//div[@id = 'category-7']//span[@class = 'icon abs scrollbardown']"));
             }
         }
 
@@ -132,7 +132,7 @@ namespace AddAdvertToSlando
         {
             get
             {
-                return _driver.FindElement(By.XPath("//dl[@id = 'targetid_private_business']/dt/a[@title = 'Выбрать']"));
+                return _driver.FindElement(By.XPath("//dl[@id = 'targetid_private_business']/dt/a"));
             }
         }
 

@@ -28,11 +28,11 @@ namespace AddAdvertToSlando
             action = new Actions(driver);
         }
 
-        //[AfterScenario()]
-        //public void TearDown()
-        //{
-        //    driver.Quit();
-        //}
+        [AfterScenario()]
+        public void TearDown()
+        {
+            driver.Quit();
+        }
 
         [Given(@"that I open page  ""(.*)""")]
         public void GivenThatIOpenPage(string Url)
