@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\Test\TwitterTest\TwitterTest\bin\Debug\TwitterTest.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-08-02" time="02:58:55">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.3\bin" machine-name="SYNKA-PC" user="Synka" user-domain="Synka-PC" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="Assembly" name="E:\Test\TwitterTest\TwitterTest\bin\Debug\TwitterTest.dll" executed="True" result="Failure" success="False" time="0.574" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="0.566" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Pages" executed="True" result="Failure" success="False" time="0.514" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="HomePage" executed="True" result="Error" success="False" time="0.283" asserts="0">
+                <failure>
+                  <message><![CDATA[SetUp : OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.]]></message>
+                  <stack-trace><![CDATA[в OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+в OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor()
+в Test.Helper.Browser.Driver() в e:\Test\TwitterTest\TwitterTest\Helper\Browser.cs:строка 12
+в Test.Pages.BasePage..ctor() в e:\Test\TwitterTest\TwitterTest\Pages\BasePage.cs:строка 16
+в Test.Pages.HomePage..ctor()
+]]></stack-trace>
+                </failure>
+              </test-suite>
+              <test-suite type="TestFixture" name="LogOutPage" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                <failure>
+                  <message><![CDATA[SetUp : OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.]]></message>
+                  <stack-trace><![CDATA[в OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+в OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor()
+в Test.Helper.Browser.Driver() в e:\Test\TwitterTest\TwitterTest\Helper\Browser.cs:строка 12
+в Test.Pages.BasePage..ctor() в e:\Test\TwitterTest\TwitterTest\Pages\BasePage.cs:строка 16
+в Test.Pages.LogOutPage..ctor()
+]]></stack-trace>
+                </failure>
+              </test-suite>
+              <test-suite type="TestFixture" name="ProfilePage" executed="True" result="Error" success="False" time="0.003" asserts="0">
+                <failure>
+                  <message><![CDATA[SetUp : OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.]]></message>
+                  <stack-trace><![CDATA[в OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+в OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor()
+в Test.Helper.Browser.Driver() в e:\Test\TwitterTest\TwitterTest\Helper\Browser.cs:строка 12
+в Test.Pages.BasePage..ctor() в e:\Test\TwitterTest\TwitterTest\Pages\BasePage.cs:строка 16
+в Test.Pages.ProfilePage..ctor()
+]]></stack-trace>
+                </failure>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="0.025" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="TestBase" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0" />
+              <test-suite type="TestFixture" name="TwitterTest" executed="True" result="Failure" success="False" time="0.022" asserts="0">
+                <results>
+                  <test-case name="Test.Tests.TwitterTest.Test" executed="True" result="Error" success="False" time="0.017" asserts="0">
+                    <failure>
+                      <message><![CDATA[SetUp : OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+TearDown : OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.]]></message>
+                      <stack-trace><![CDATA[в OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+в OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor()
+в Test.Helper.Browser.Driver() в e:\Test\TwitterTest\TwitterTest\Helper\Browser.cs:строка 12
+в Test.Tests.TestBase.Setup() в e:\Test\TwitterTest\TwitterTest\Test\TestBase.cs:строка 19
+--TearDown
+в OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+в OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+в OpenQA.Selenium.Chrome.ChromeDriver..ctor()
+в Test.Helper.Browser.Driver() в e:\Test\TwitterTest\TwitterTest\Helper\Browser.cs:строка 12
+в Test.Tests.TestBase.TearDown() в e:\Test\TwitterTest\TwitterTest\Test\TestBase.cs:строка 26
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

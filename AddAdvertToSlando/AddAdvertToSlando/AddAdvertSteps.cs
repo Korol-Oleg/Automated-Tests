@@ -31,7 +31,7 @@ namespace AddAdvertToSlando
         [AfterScenario()]
         public void TearDown()
         {
-            driver.Quit();
+            driver.Close();
         }
 
         [Given(@"that I open page  ""(.*)""")]

@@ -84,7 +84,7 @@ namespace AddAdvertToSlando
         {
             get
             {
-                return _driver.FindElement(By.XPath("//div[@class = 'h100 table']"));
+                return _driver.FindElement(By.XPath("//dl[@id='targetrenderSelect1-0']"));
             }
         }
 

@@ -1,0 +1,13 @@
+E:\Test\TwitterTest\TwitterTest\bin\Debug\Driver\chromedriver.exe
+E:\Test\TwitterTest\TwitterTest\bin\Debug\TwitterTest.dll.config
+E:\Test\TwitterTest\TwitterTest\bin\Debug\TwitterTest.dll
+E:\Test\TwitterTest\TwitterTest\bin\Debug\TwitterTest.pdb
+E:\Test\TwitterTest\TwitterTest\bin\Debug\nunit.framework.dll
+E:\Test\TwitterTest\TwitterTest\bin\Debug\WebDriver.dll
+E:\Test\TwitterTest\TwitterTest\bin\Debug\WebDriver.Support.dll
+E:\Test\TwitterTest\TwitterTest\bin\Debug\nunit.framework.xml
+E:\Test\TwitterTest\TwitterTest\bin\Debug\WebDriver.xml
+E:\Test\TwitterTest\TwitterTest\bin\Debug\WebDriver.Support.xml
+E:\Test\TwitterTest\TwitterTest\obj\Debug\TwitterTest.csprojResolveAssemblyReference.cache
+E:\Test\TwitterTest\TwitterTest\obj\Debug\TwitterTest.dll
+E:\Test\TwitterTest\TwitterTest\obj\Debug\TwitterTest.pdb
