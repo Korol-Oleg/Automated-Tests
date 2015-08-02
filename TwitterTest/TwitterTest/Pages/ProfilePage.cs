@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Threading;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using OpenQA.Selenium.Support.UI;
 using TwitterTest.Helper;
 
 namespace TwitterTest.Pages
 {
-    class ProfilePage : BasePage
+    public class ProfilePage : BasePage
     {
         [FindsBy(How = How.Id, Using = "tweet-box-home-timeline")]
         protected IWebElement txtFieldPost { get; set; }
@@ -58,10 +56,9 @@ namespace TwitterTest.Pages
             navUserMenu.Click();
         }
 
-        public LogOutPage ClickLogOut()
+        public void ClickLogOut()
         {
             btnLogOut.Click();
-            return new LogOutPage();
         }
 
         public void VerifyLogIn()

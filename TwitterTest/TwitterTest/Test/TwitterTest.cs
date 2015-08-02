@@ -1,7 +1,5 @@
-﻿using System.Threading;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using TwitterTest.Helper;
-using TwitterTest.Pages;
 
 namespace TwitterTest.Test
 {
@@ -10,11 +8,8 @@ namespace TwitterTest.Test
         [Test]
         public void Test()
         {
-            Driver().Url = "https://twitter.com/";
-            HomePage home = new HomePage();
             home.InputLogAndPass(LoginData.Login, LoginData.Password);
-
-            ProfilePage profile = home.ClickLoginSubmit();
+            home.ClickLoginSubmit();
             profile.VerifyLogIn();
             profile.WritePost();
             profile.ClickSendPost();
@@ -22,7 +17,7 @@ namespace TwitterTest.Test
             profile.DeletePost();
             profile.VerifyPostDeleted();
             profile.ClickUserMenu();
-            LogOutPage logOutPage = profile.ClickLogOut();
+            profile.ClickLogOut();
             logOutPage.VerifyLogOut();
         }
     }

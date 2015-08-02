@@ -4,7 +4,7 @@ using OpenQA.Selenium.Support.PageObjects;
 
 namespace TwitterTest.Pages
 {
-    class LogOutPage : BasePage
+    public class LogOutPage : BasePage
     {
 
         [FindsBy(How = How.XPath, Using = @"//body[@class = 'three-col logged-out ms-windows western ru supports-drag-and-drop']")]

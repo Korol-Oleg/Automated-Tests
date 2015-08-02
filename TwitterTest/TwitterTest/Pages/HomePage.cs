@@ -3,7 +3,7 @@ using OpenQA.Selenium.Support.PageObjects;
 
 namespace TwitterTest.Pages
 {
-    class HomePage : BasePage
+    public class HomePage : BasePage
     {
         [FindsBy(How = How.Id, Using = "signin-email")]
         protected IWebElement txtLogin { get; set; }
@@ -20,10 +20,9 @@ namespace TwitterTest.Pages
             txtPassword.SendKeys(pass);
         }
 
-        public ProfilePage ClickLoginSubmit()
+        public void ClickLoginSubmit()
         {
             btnLogin.Click();
-            return new ProfilePage();
         }
 
     }
