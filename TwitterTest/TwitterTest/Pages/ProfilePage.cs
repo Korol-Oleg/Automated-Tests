@@ -16,7 +16,7 @@ namespace TwitterTest.Pages
         [FindsBy(How = How.XPath, Using = @"//div[@class = 'home-tweet-box tweet-box component tweet-user']//span[@class = 'button-text tweeting-text']")]
         protected IWebElement btnSendPost { get; set; }
 
-        [FindsBy(How = How.XPath, Using = @"//a[@class = 'btn js-tooltip settings dropdown-toggle js-dropdown-toggle']")]
+        [FindsBy(How = How.XPath, Using = @"//li[@id= 'user-dropdown']/a[@id='user-dropdown-toggle']")]
         protected IWebElement navUserMenu { get; set; }
 
         [FindsBy(How = How.Id, Using = "signout-button")]
@@ -40,19 +40,21 @@ namespace TwitterTest.Pages
         public void WritePost()
         {
             _textPost = string.Format("Test post " + DateTime.Now);
-            WaitElement(txtFieldPost);
+            WaitElementEnabled(txtFieldPost);
             txtFieldPost.SendKeys(_textPost);
         }
 
         public void ClickSendPost()
         {
-            WaitElement(btnSendPost);
+            WaitElementDisplayed(btnSendPost);
             btnSendPost.Click();
 
         }
 
         public void ClickUserMenu()
         {
+            WaitElementNotDisplayed(btnAcceptDeletePost);
+            WaitElementDisplayed(navUserMenu);
             navUserMenu.Click();
         }
 
@@ -64,7 +66,7 @@ namespace TwitterTest.Pages
 
         public void VerifyLogIn()
         {
-            WaitElement(navUserMenu);
+            WaitElementDisplayed(navUserMenu);
             Assert.True(navUserMenu.Displayed);
         }
 

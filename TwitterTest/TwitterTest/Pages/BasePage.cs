@@ -17,9 +17,20 @@ namespace TwitterTest.Pages
 
 
 
-        public void WaitElement(IWebElement element)
+        public void WaitElementDisplayed(IWebElement element)
         {
             _wait.Until(dr => element.Displayed);
         }
+
+        public void WaitElementEnabled(IWebElement element)
+        {
+            _wait.Until(dr => element.Enabled);
+        }
+
+        public void WaitElementNotDisplayed(IWebElement element)
+        {
+            _wait.Until(dr => !element.Displayed);
+        }
+
     }
 }

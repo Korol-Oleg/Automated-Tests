@@ -12,7 +12,7 @@ namespace TwitterTest.Pages
 
         public void VerifyLogOut()
         {
-            WaitElement(logOutBody);
+            WaitElementDisplayed(logOutBody);
             Assert.True(logOutBody.Displayed);
         }
     }
