@@ -2,18 +2,18 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium.Support.UI;
-using TwitterTest.Test;
+using TwitterTest.Helper;
 
 namespace TwitterTest.Pages
 {
-    public abstract class BasePage : TestBase
+    public abstract class BasePage : Browser
     {
-        public BasePage()
+        protected BasePage()
         {
             PageFactory.InitElements(Driver(), this);
         }
 
-        private readonly WebDriverWait _wait = new WebDriverWait(Driver(), TimeSpan.FromSeconds(150));
+        private readonly WebDriverWait _wait = new WebDriverWait(Driver(), TimeSpan.FromSeconds(25));
 
 
 
@@ -31,6 +31,5 @@ namespace TwitterTest.Pages
         {
             _wait.Until(dr => !element.Displayed);
         }
-
     }
 }

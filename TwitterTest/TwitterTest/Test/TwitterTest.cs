@@ -1,24 +1,17 @@
 ﻿using NUnit.Framework;
-using TwitterTest.Helper;
 
 namespace TwitterTest.Test
 {
-    class TwitterTest : TestBase
+    class TwitterTest : TestBaseUseLogInOut
     {
         [Test]
-        public void Test()
+        public void TestWritePost()
         {
-            home.InputLogAndPass(LoginData.Login, LoginData.Password);
-            home.ClickLoginSubmit();
-            profile.VerifyLogIn();
             profile.WritePost();
             profile.ClickSendPost();
             profile.VerifyPostCreated();
             profile.DeletePost();
             profile.VerifyPostDeleted();
-            profile.ClickUserMenu();
-            profile.ClickLogOut();
-            logOutPage.VerifyLogOut();
         }
     }
 }

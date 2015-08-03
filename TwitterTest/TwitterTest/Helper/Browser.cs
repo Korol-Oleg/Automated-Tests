@@ -8,7 +8,7 @@ namespace TwitterTest.Helper
         private static IWebDriver _driver;
         public static IWebDriver Driver()
         {
-            _driver = _driver ?? new ChromeDriver();
+            _driver = _driver ?? new ChromeDriver(GetPametrFromConfig.PathToDriver);
             return _driver;
         }
 

@@ -16,7 +16,9 @@ namespace TwitterTest.Pages
 
         public void InputLogAndPass(string login, string pass)
         {
+            WaitElementDisplayed(txtLogin);
             txtLogin.SendKeys(login);
+            WaitElementDisplayed(txtPassword);
             txtPassword.SendKeys(pass);
         }
 

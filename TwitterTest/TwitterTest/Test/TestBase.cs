@@ -12,12 +12,7 @@ namespace TwitterTest.Test
         protected ProfilePage profile;
         protected LogOutPage logOutPage;
 
-        public void RefreshTab()
-        {
-            Driver().Navigate().Refresh();
-        }
-
-        [SetUp]
+        [TestFixtureSetUp]
         public void Setup()
         {
             Driver().Manage().Window.Maximize();
@@ -28,7 +23,7 @@ namespace TwitterTest.Test
             logOutPage = new LogOutPage();
         }
 
-        [TearDown]
+        [TestFixtureTearDown]
         public void TearDown()
         {
             CloseDriver();

@@ -55,26 +55,26 @@
   <ItemGroup>
     <Compile Include="Helper\Browser.cs" />
     <Compile Include="Helper\FindDynamicElement.cs" />
-    <Compile Include="Helper\LoginData.cs" />
+    <Compile Include="Helper\GetPametrFromConfig.cs" />
     <Compile Include="Pages\BasePage.cs" />
     <Compile Include="Pages\HomePage.cs" />
     <Compile Include="Pages\LogOutPage.cs" />
     <Compile Include="Pages\ProfilePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\TestBase.cs" />
+    <Compile Include="Test\TestBaseUseLogInOut.cs" />
     <Compile Include="Test\TwitterTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Content Include="..\packages\WebDriverChromeDriver.2.10\tools\chromedriver.exe">
-      <Link>Driver\chromedriver.exe</Link>
+    <Content Include="Driver\chromedriver.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
